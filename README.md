@@ -99,15 +99,39 @@ Tested on:
 
 Should work on any site using common app-nag patterns.
 
-## Building for AMO Submission
+## Building from Source
 
-```bash
-npm install
-npm run build
-npx web-ext build --ignore-files="src/*.ts" "node_modules/**" "*.md" "tsconfig.json" "package*.json"
-```
+### Requirements
 
-The extension ZIP will be in `web-ext-artifacts/`.
+- **Operating System:** Any (Linux, macOS, Windows)
+- **Node.js:** v18 or higher
+- **npm:** v9 or higher (included with Node.js)
+
+### Build Instructions
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Build the extension (compiles TypeScript to JavaScript):
+   ```bash
+   npm run build
+   ```
+   This runs esbuild to compile `src/*.ts` files into `dist/` and `src/popup/popup.js`.
+
+3. Package for distribution:
+   ```bash
+   npx web-ext build --ignore-files="src/*.ts" "node_modules/**" "*.md" "tsconfig.json" "package*.json"
+   ```
+   The extension ZIP will be in `web-ext-artifacts/`.
+
+### Build Script
+
+All build steps are defined in `package.json`:
+- `npm run build` - Compiles TypeScript source to JavaScript
+- `npm run typecheck` - Runs TypeScript type checking
+- `npm run watch` - Rebuilds on file changes (development)
 
 ## Contributing
 
