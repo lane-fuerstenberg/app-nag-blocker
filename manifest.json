@@ -40,12 +40,11 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "app-nag-blocker@example.com"
+      "id": "app-nag-blocker@example.com",
+      "data_collection_permissions": {
+        "required": false,
+        "disclosure_text": "This extension does not collect, store, or transmit any user data."
+      }
     }
-  },
-
-  "data_collection_permissions": {
-    "required": false,
-    "disclosure_text": "This extension does not collect, store, or transmit any user data."
   }
 }
