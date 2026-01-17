@@ -1,9 +1,7 @@
 # AMO Listing Information
 
-## Extension Name
-App-Nag Blocker
-
 ## Summary (max 250 characters)
+
 Automatically dismisses "Use our app" prompts on mobile websites. Stay in your browser without constant interruptions.
 
 ## Description
@@ -13,11 +11,11 @@ Tired of websites constantly nagging you to install their app? App-Nag Blocker a
 **Features:**
 
 - Automatically detects app-nag modals and banners using text pattern matching
-- Clicks dismiss buttons when available, keeping site functionality intact
+- Finds and clicks dismiss buttons to cleanly close prompts
 - Per-site whitelisting if you want to see prompts on specific sites
 - Global on/off toggle
 - Minimal performance impact - detection stops after 10 seconds per page
-- No data collection - your browsing stays private
+- No data collection - fully private
 
 **Works on:**
 
@@ -32,11 +30,18 @@ The extension scans for fixed-position elements containing phrases like "open in
 
 Click the toolbar icon to toggle the extension or whitelist specific sites.
 
+**Source code:** [GitHub](https://github.com/lane-fuerstenberg/app-nag-blocker)
+
+## Homepage/Support URL
+
+https://github.com/lane-fuerstenberg/app-nag-blocker
+
 ## Categories
-- Privacy & Security
-- Browsing
+
+- Appearance
 
 ## Tags
+
 app-nag, mobile, browser, popup-blocker, dismiss, privacy
 
 ---
