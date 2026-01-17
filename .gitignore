@@ -1,0 +1,18 @@
+node_modules/
+dist/
+src/popup/popup.js
+web-ext-artifacts/
+*.tar.gz
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Shield background - flat top, fills canvas -->
+  <path d="M4 4 L124 4 L124 70 C124 108 64 124 64 124 C64 124 4 108 4 70 Z" fill="#4a90d9"/>
+  <!-- Inner shield -->
+  <path d="M14 14 L114 14 L114 68 C114 100 64 114 64 114 C64 114 14 100 14 68 Z" fill="#fff"/>
+  <!-- Phone icon -->
+  <rect x="44" y="24" width="40" height="72" rx="5" fill="#4a90d9"/>
+  <rect x="50" y="32" width="28" height="52" fill="#fff"/>
+  <!-- Red block slash -->
+  <line x1="28" y1="104" x2="100" y2="28" stroke="#d9534f" stroke-width="14" stroke-linecap="round"/>
+</svg>
