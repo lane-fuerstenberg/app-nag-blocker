@@ -42,9 +42,7 @@
     "gecko": {
       "id": "app-nag-blocker@example.com",
       "data_collection_permissions": {
-        "required": [],
-        "optional": [],
-        "disclosure_text": "This extension does not collect, store, or transmit any user data."
+        "required": ["none"]
       }
     }
   }
